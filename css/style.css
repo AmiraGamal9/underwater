@@ -64,10 +64,10 @@ video {
 @media screen and (max-width:767px) {
     .main-header {
         top:10vh;
-        left:2vw;
+        left:2px;
     }
     .website-overlay {
-        right:15px;
+        right:1px;
     }
 }
 .p-dropdown {
