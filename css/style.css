@@ -63,8 +63,8 @@ video {
 }
 @media screen and (max-width:767px) {
     .main-header {
-        top:20vh;
-        left:6vw;
+        top:10vh;
+        left:4vw;
     }
 }
 .p-dropdown {
@@ -424,7 +424,7 @@ video {
         font-size:40px;
     }
     .sale-item-overlay {
-        height: 65% !important;
+        height: 60% !important;
     }
 }
 .sale-item-overlay {
@@ -614,6 +614,9 @@ footer {
         margin-left: 4px;
         width: 100%;
     }
+    .blog-item .blog-content .blog-content-container p {
+    font-size: 16px !important;
+}
 }
 .virtual .virtual-content .virtual-content-container h4 {
     font-size:30px;
