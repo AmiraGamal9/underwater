@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underwater</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,500;1,200;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+  </head>
+<body>
+    <main>
+     
+        <header>
+            <nav class="navbar navbar-expand-md fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5" href="#">
+                        <img src="images/logo-retina-free-img.png" alt="shark logo" style="width: 120px; height: 70px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MyNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="MyNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-3">
+                                <a href="#" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item p-dropdown me-3">
+                              <a href="#" class="nav-link">Products</a>
+                              <div class="row p-dropdown-menu">
+                                <div class="col-sm-3">
+                                  <h4 class="submenu-title my-4">CATEGORIES</h4>
+                                  <ul class="submenu">
+                                    <li class="mb-2"><a href="#">Accessories</a></li>
+                                    <li class="mb-2"><a href="#">Bags and dry boxes</a></li>
+                                    <li class="mb-2"><a href="#">Bcd jackets</a></li>
+                                    <li class="mb-2"><a href="#">Bcd wings</a></li>
+                                    <li class="mb-2"><a href="#">Bottles</a></li>
+                                    <li class="mb-2"><a href="#">Electronics and electricity</a></li>
+                                    <li class="mb-2"><a href="#">Fins</a></li>
+                                  </ul>
+                                </div>
+                                
+                                  <ul class="col-sm-3 submenu pt-4">
+                                    <li class="mb-2 mt-5"><a href="#">Gift cards</a></li>
+                                    <li class="mb-2"><a href="#">Instruments and computers</a></li>
+                                    <li class="mb-2"><a href="#">Lights</a></li>
+                                    <li class="mb-2"><a href="#">Masks</a></li>
+                                    <li class="mb-2"><a href="#">Neoprene accessories</a></li>
+                                    <li class="mb-2"><a href="#">Padi</a></li>
+                                    <li class="mb-2"><a href="#">Regulators</a></li>
+                                  </ul>
+                              
+                              
+                                
+                                <div class="col-sm-3">
+                                  <h4 class="submenu-title my-4">BRANDS</h4>
+                                  <ul class="submenu">
+                                    <li class="mb-2"><a href="#">Cressi</a></li>
+                                    <li class="mb-2"><a href="#">Omer</a></li>
+                                    <li class="mb-2"><a href="#">Mares</a></li>
+                                    <li class="mb-2"><a href="#">Best divers</a></li>
+                                    <li class="mb-2"><a href="#">Imersion</a></li>
+                                    <li class="mb-2"><a href="#">Beuchat</a></li>
+                                    <li class="mb-2"><a href="#">Seacsub</a></li>
+                                    <li class="mb-2"><a href="#">Scubapro</a></li>
+                                  </ul>
+                              
+                                  
+                                </div>
+                              </div> 
+                          </li>
+                            <li class="nav-item me-3">
+                                <a href="#" class="nav-link">Animals</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto">
+                            <button type="button" class="me-4 pe-4" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+                            <button type="button" class="tic-btn">Tickets</button>
+                            <input type="text" class="form-control nav-input ms-2" style="display: none;" placeholder="Search for your ticket" >
+                        </form>
+            </nav>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="form-floating mb-3 mt-3 px-2">
+                    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label for="email">Email</label>
+                  </div>
+                  <p class="ps-3 text-muted">we'll never share your email with anyone else.</p>
+                  
+                  <div class="form-floating mt-3 mb-3 px-2">
+                    <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    <label for="pwd">Password</label>
+                  </div>
+                  <div class="form-check form-switch ms-3">
+                    <input class="form-check-input" type="checkbox" id="mySwitch" value="yes" checked>
+                    <label class="form-check-label" for="mySwitch">Remmember Me</label>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn bg-primary me-auto">Login</button>
+                    <button type="button" class="btn bg-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </header>
+        <div class=" website-overlay">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+        <div class="main-header">
+          <h3>UNDERWATER</h3>
+        </div>
+        
+        
+          <div id="demo" class="carousel slide carousel-fade shadow-2-strong h-100" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video class="img-fluid" playsinline autoplay loop muted>
+                    <source src="videos/about_blank_2.mp4" type="video/mp4" />
+                  </video>
+              </div>
+              <div class="carousel-item">
+                <video class="img-fluid" playsinline autoplay loop muted>
+                  <source src="videos/Pinterest_Thinks_the...Notice_1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="carousel-item">
+                <video class="img-fluid" playsinline autoplay loop muted>
+                  <source src="videos/about_blank_4.mp4" type="video/mp4" />
+                </video> 
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </main>
+    <section>
+      <div class="d-flex welcome-container p-5">
+        <div>
+          <img src="images/air-tank.svg" class="w-100 h-100 mx-auto" alt="" >
+        </div>
+        <div class="welcome-text text-white text-center">
+          <h4>WELCOME</h4>
+          <P>We`ll satisfy any Diving Needs </P>
+        </div>
+        <div>
+          <img src="images/scuba-mask.svg" class="w-100 h-100 mx-auto"  alt="">
+        </div>
+      </div>
+    </section>
+    <section class="mb-5">
+      <div class="container-fluid features">
+        <h3 class="text-center mb-4">OUR FEATURES</h3>
+        <div id="accordion">
+
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                We are honored to present our high quality products and services
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Our company has great experience and perfect reputation in this sphere. We are honored to present our high quality products and services. Our dedicated team of experienced instructors is always available to help...
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                Our company has great experience and perfect reputation in this sphere
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Our company has great experience and perfect reputation in this sphere. We are honored to present our high quality products and services. Our dedicated team of experienced instructors is always available to help...
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                The goods of our store are very reliable and durable
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                The goods of our store are very reliable and durable We love what we do and our activity is not just a business - it is our passion and we want to share...
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+      </div>
+    </section>
+    <section class="mb-5 gallery">
+      <div class="container">
+        <div class="row collection justify-content-between">
+          <div class="item col-sm col-md-3">
+            <div class="front w-100">
+             <img src="images/oneill_wetsuits_mens_reactor_3_2mm_full_suit_1_grande.webp"  style="height: 300px;" class="w-100 mx-auto" alt="camera-face">
+            </div>
+            <div class="back w-100">
+              <img src="images/oneill_wetsuits_mens_reactor_3_2mm_full_suit_4_grande.webp"  style="height: 300px;" class="w-100 mx-auto" alt="camera-back">
+            </div>
+            <div class="overlay">
+              <p class="item-title">SUITS</p>
+            </div>
+          </div>
+          <div class="item col-sm col-md-3">
+            <div class="front w-100">
+              <img src="images/cressi_leonardo_scuba_diving_wrist_computer_1_grande.webp" class="w-100 mx-auto" style="height: 300px;" alt="mask-face">
+            </div>
+            <div class="back w-100">
+              <img src="images/cressi_leonardo_scuba_diving_wrist_computer_2_grande.webp" class="w-100 mx-auto" style="height: 300px;"  alt="mask-back">
+            </div>
+            <div class="overlay">
+              <p class="item-title">WATCHES</p>
+            </div>
+          </div>
+          <div class="item col-sm col-md-3">
+            <div class="front w-100">
+              <img src="images/sea_pearls_80_aluminum_scuba_diving_tanks_2_grande.webp" class="w-100 mx-auto" style="height: 300px;" alt="mask-face">
+            </div>
+            <div class="back w-100">
+              <img src="images/sea_pearls_80_aluminum_scuba_diving_tanks_1_grande.webp" class="w-100 mx-auto" style="height: 300px;"  alt="mask-back">
+            </div>
+            <div class="overlay">
+              <p class="item-title">TANKS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="b-ground m-0"></div>
+    <section class="products">
+      <h3 class="text-center mb-4 pt-4">SPECIAL PRODUCTS</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary">
+            <div class="p-item-img mx-auto">
+              <img src="images/cressi_leonardo_scuba_diving_wrist_computer_4_grande.webp" class="mx-auto d-block " alt="watch">
+            </div>
+            <div class="product-description">
+            <p class="price text-center text-white">$199.00<del class="text-danger">$219.00</del></p>
+            <p class="p-item-name text-center">CRESSI LEONARDO SCUBA DIVING WRIST COMPUTER</p>
+            <p class="p-item-message text-center">So keep saving your money with our store!
+              We love what we do and our activity is not just a business -...</p>
+              <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary second">
+            <div class="p-item-img mx-auto">
+              <img src="images/cressi_lima_stainless_steel_tactical_dive_knife_for_scuba_diving_2_grande.webp" class="mx-auto d-block " alt="watch">
+            </div>
+            <div class="product-description">
+            <p class="price text-center text-white">$19.00<del class="text-danger">$25.00</del></p>
+            <p class="p-item-name text-center">CRESSI LIMA STAINLESS STEEL TACTICAL DIVE KNIFE...</p>
+            <p class="p-item-message text-center">Our company has great experience and perfect reputation in this sphere
+              We love what we do and our acti...</p>
+              <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary">
+            <div class="p-item-img mx-auto">
+              <img src="images/aqua_sphere_stingray_core_warmer_1_grande.webp" class="mx-auto d-block " alt="watch">
+            </div>
+            <div class="product-description">
+            <p class="price text-center text-white">$56.00<del class="text-danger">$58.00</del></p>
+            <p class="p-item-name text-center">AQUA SPHERE STINGRAY CORE WARMER</p>
+            <p class="p-item-message text-center">We love what we do and our activity is not just a business - it is our passion and we want to share ou...</p>
+              <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-3 product-item">
+            <div class="p-item-img mx-auto">
+              <img src="images/freetoo_waterproof_1800_lumens_xm_l_t6_led_8_switch_mode_diving_light_adjustable_focus_range_1_grande.webp" class=" mx-auto d-block " alt="watch">
+            </div>
+            <div class="product-description">
+            <p class="price text-center text-white">$20.00<del class="text-danger">$30.00</del></p>
+            <p class="p-item-name text-center">FREETOO® Waterproof 1800 Lumens XM-L T6 LED 8 S...</p>
+            <p class="p-item-message text-center">We love what we do and our activity is not just a business - it is our passion and we want to share ou...</p>
+              <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary">
+              <div class="p-item-img mx-auto">
+                <img src="images/mares_hybrid_pure_bcd_with_mrs_plus_weight_pockets_1_grande.webp" class=" mx-auto d-block " alt="watch">
+              </div>
+              <div class="product-description">
+              <p class="price text-center text-white">$370.00<del class="text-danger">$400.00</del></p>
+              <p class="p-item-name text-center">Mares Hybrid Pure BCD with MRS Plus Weight Pockets</p>
+              <p class="p-item-message text-center">So keep saving your money with our store!
+                We love what we do and our activity is not just a business -...</p>
+                <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary six">
+              <div class="p-item-img mx-auto">
+                <img src="images/oneill_wetsuits_mens_reactor_3_2mm_full_suit_1_grande.webp" class="mx-auto d-block " alt="watch">
+              </div>
+              <div class="product-description">
+              <p class="price text-center text-white">$140.00<del class="text-danger">$160.00</del></p>
+              <p class="p-item-name text-center">ONeill Wetsuits Mens Reactor 3-2mm Full Suit</p>
+              <p class="p-item-message text-center">So keep saving your money with our store!
+                We love what we do and our activity is not just a business -...</p>
+                <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-3 product-item border-end border-primary">
+              <div class="p-item-img mx-auto">
+                <img src="images/sea_pearls_80_aluminum_scuba_diving_tanks_2_grande.webp" class="mx-auto d-block " alt="watch">
+              </div>
+              <div class="product-description">
+              <p class="price text-center text-white">$248.00<del class="text-danger">$258.00</del></p>
+              <p class="p-item-name text-center">Sea Pearls 80 Aluminum Scuba Diving Tanks</p>
+              <p class="p-item-message text-center">We love what we do and our activity is not just a business - it is our passion and we want to share ou...</p>
+                <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-3 product-item">
+              <div class="p-item-img mx-auto">
+                <img src="images/u.s._divers_mens_lux_lx_mask_with_purge_pivot_fins_and_phoenix_lx_snorkel_combo_set_1_grande.webp" class="mx-auto d-block " alt="watch">
+              </div>
+              <div class="product-description">
+              <p class="price text-center text-white">$199.00<del class="text-danger">$219.00</del></p>
+              <p class="p-item-name text-center">U.S. Divers Mens Lux LX Mask with Purge Pivot F...</p>
+              <p class="p-item-message text-center">So keep saving your money with our store!
+                We love what we do and our activity is not just a business -...</p>
+                <div class="p-item-icons w-80 mx-auto d-flex justify-content-center">
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-cart-shopping text-white"></i></a></span>
+                  <span class="mx-3"><a href="#"><i class="fa-solid fa-eye text-white"></i></a></span>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </section>
+    <div class="b-ground-2"></div>
+    <section class="sale">
+      <div class="container-lg container-fluid-sm">
+        <div class="row">
+          <div class="col-sm col-lg-6">
+              <div class="sale-item-1 position-relative">
+                <div class="sale-item-overlay h-100">
+                  <div class="sale-item-text">
+                    <h3 class="mb-3">Up to <span class="text-info">40% OFF</span><br> on Flippers</h3>
+                    <div class="sale-btn">
+                      <a href="#" class="btn">SHOP NOW</a>
+                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          <div class="col-sm col-lg-6">
+            
+              <div class="sale-item-2 position-relative">
+                <div class="sale-item-overlay h-100 w-100">
+                  <div class="sale-item-text">
+                    <h3 class="mb-3">Cylinder<br><span class="text-info">SALE!</span></h3>
+                    <div class="sale-btn">
+                      <a href="#" class="btn">SHOP NOW</a>
+                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              
+          
+            </div>
+          
+        </div>
+      </div>
+      <section class="virtual">
+        <h3 class="text-center my-5">VIRTUAL TOUR</h3>
+        <div class="container-md container-fluid">
+          <div class="row">
+            <div class="col-sm col-md-6 pe-0">
+              <div class="virtual-img w-100">
+                <img src="images/GoAR-Women-AR-1-1024x1024.png" class="w-100" alt="virtual-img">
+              </div>
+            </div>
+            <div class="col-sm col-md-6 ps-0">
+              <div class="virtual-content text-center text-white">
+                <div class="virtual-content-container">
+                  <h4 class="mb-2">BOOK A<br> VIRTUAL GUIDED TOUR</h4>
+                  <span class="line"></span>
+                  <p class="text-muted">Take your time and explore the views of this stunning ocean underwater Coral Garden</p>
+                  <button type="button" class="btn text-white mt-3">Learn More</button>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="blog text-white">
+      <h3 class="text-center my-5 title">OUR BLOGS</h3>
+      <div class="container">
+        <div class="row h-100 mb-5">
+          <div class="blog-item col-sm d-flex w-100 mb-5">
+            <div class="blog-content rounded-start-4">
+              <div class="blog-content-container">
+                <h3 class="blog-title">Shore Diving in Maui & Big Island</h3>
+                <p class="blog-date"><i class="fa-regular fa-calendar-days me-1"></i>August 9, 2023</p>
+                <div class="progress mb-4">
+                  <div class="progress-bar" style="width:50%"></div>
+                </div>              
+                <p style="font-size: 20px; color: rgb(99, 96, 96); margin-bottom:30px;">The Hawaiian Archipelago is full of bucket list dives with exciting adventures such as diving in the crater...</p>
+                <div class="blog-btns">
+                  <button type="button" class="btn"><i class="fa-solid fa-podcast me-1"></i>Podcast</button>
+                  <button type="button" class="btn"><i class="fa-regular fa-clock me-1"></i>40 mins</button>
+                  <button type="button" class="btn colord-blog-btn"><i class="fa-solid fa-play me-1"></i>Play Eposide</button>
+                </div>
+              </div>
+            
+            </div>
+            <div class="blog-img-1">
+              <img src="images/274b30a3e0083182f75ff3d5e4cbbb04.jpg" style="clip-path: polygon(48% 0, 100% 0, 100% 100%, 35% 100%);" class="w-100 h-100 rounded-end-4" alt="blog-img">
+            </div>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="container">
+            <div class="row h-100 mb-5">
+              <div class="blog-item col-sm d-flex w-100 mb-5">
+                <div class="blog-img-2">
+                  <img src="images/Jellyfish-In-The-Deep-Sea-AI-Generated-4K-Wallpaper-3.webp" style="clip-path: polygon(0 0, 63% 0, 51% 100%, 0% 100%);" class="w-100 h-100 rounded-start-4" alt="blog-img">
+                </div>
+                <div class="blog-content rounded-end-4" style="padding-left:30%; padding-top:60px; width: 100%;">
+                  <div class="blog-content-container w-100">
+                    <h3 class="blog-title">New Caledonia: The Lagoon of All Hopes</h3>
+                    <p class="blog-date"><i class="fa-regular fa-calendar-days me-1"></i>May 15, 2023</p>
+                    <div class="progress progress-2 mb-4">
+                      <div class="progress-bar" style="width:40%"></div>
+                    </div>              
+                    <p style="font-size: 20px; color: rgb(99, 96, 96); margin-bottom:30px;">As we dived for the very first time in the lagoon of New Caledonia, at Duck Island, with only our masks and fins...</p>
+                    <div class="blog-btns-2">
+                      <button type="button" class="btn"><i class="fa-solid fa-podcast me-1"></i>Podcast</button>
+                      <button type="button" class="btn"><i class="fa-regular fa-clock me-1"></i>15 mins</button>
+                      <button type="button" class="btn colord-blog-btn"><i class="fa-solid fa-play me-1"></i>Play Eposide</button>
+                    </div>
+                  </div>
+                
+                </div>
+                
+              </div>
+              </div>
+              </div>
+
+
+
+              <div class="container">
+                <div class="row h-100 mb-5">
+                  <div class="blog-item col-sm d-flex w-100 mb-5">
+                    <div class="blog-content rounded-start-4">
+                      <div class="blog-content-container">
+                        <h3 class="blog-title">Scuba Diving in Okinawa: A First-timer Guide</h3>
+                        <p class="blog-date"><i class="fa-regular fa-calendar-days me-1"></i>April 17, 2023</p>
+                        <div class="progress mb-4">
+                          <div class="progress-bar" style="width:20%"></div>
+                        </div>              
+                        <p style="font-size: 20px; color: rgb(99, 96, 96); margin-bottom:30px;">It is one of these places where it is not so straightforward to organize a scuba diving trip. There are so many...</p>
+                        <div class="blog-btns">
+                          <button type="button" class="btn"><i class="fa-solid fa-podcast me-1"></i>Podcast</button>
+                          <button type="button" class="btn"><i class="fa-regular fa-clock me-1"></i>30 mins</button>
+                          <button type="button" class="btn colord-blog-btn"><i class="fa-solid fa-play me-1"></i>Play Eposide</button>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <div class="blog-img-1">
+                      <img src="images/francesco-ungaro-hqAGgNsMpEY-unsplash.jpg" style="clip-path: polygon(48% 0, 100% 0, 100% 100%, 35% 100%);" class="w-100 h-100 rounded-end-4" alt="blog-img">
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+        
+         
+    </section>
+    <footer class="mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3" style="text-align: center;">
+            <h4 class="submenu-title my-4 text-center">CATEGORIES</h4>
+                                  <ul class="submenu">
+                                    <li class="mb-2"><a href="#">Accessories</a></li>
+                                    <li class="mb-2"><a href="#">Bags and dry boxes</a></li>
+                                    <li class="mb-2"><a href="#">Bcd jackets</a></li>
+                                    <li class="mb-2"><a href="#">Bcd wings</a></li>
+                                    <li class="mb-2"><a href="#">Bottles</a></li>
+                                    <li class="mb-2"><a href="#">Electronics and electricity</a></li>
+                                    <li class="mb-2"><a href="#">Fins</a></li>
+                                  </ul>
+          </div>
+          <div class="col-sm-6 col-lg-3 text-center">
+            <ul class="col-sm-3 submenu pt-4 w-100 text-center">
+              <li class="mb-2 mt-5"><a href="#">Gift cards</a></li>
+              <li class="mb-2"><a href="#">Instruments and computers</a></li>
+              <li class="mb-2"><a href="#">Lights</a></li>
+              <li class="mb-2"><a href="#">Masks</a></li>
+              <li class="mb-2"><a href="#">Neoprene accessories</a></li>
+              <li class="mb-2"><a href="#">Padi</a></li>
+              <li class="mb-2"><a href="#">Regulators</a></li>
+            </ul>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <h4 class="submenu-title my-4 text-center">BRANDS</h4>
+            <ul class="submenu" style="text-align: center;">
+              <li class="mb-2"><a href="#">Cressi</a></li>
+              <li class="mb-2"><a href="#">Omer</a></li>
+              <li class="mb-2"><a href="#">Mares</a></li>
+              <li class="mb-2"><a href="#">Best divers</a></li>
+              <li class="mb-2"><a href="#">Imersion</a></li>
+              <li class="mb-2"><a href="#">Beuchat</a></li>
+              <li class="mb-2"><a href="#">Seacsub</a></li>
+              <li class="mb-2"><a href="#">Scubapro</a></li>
+            </ul>
+        
+          </div>
+          <div class="col-sm-6 col-lg-3">
+           <h4 class="submenu-title my-4 text-center">CONTACT US</h4>
+            <div class=" website-media">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright mx-auto">
+          <img src="images/logo-retina-free-img.png" class="d-block mx-auto" alt="logo">
+          <p class="text-white text-center mt-3">&copy;2024 Diving. All rights reserved.</p>
+          
+        </div>
+      </div>
+
+     
+    </footer>
+
+
+   
+   <script src="js/script.js"></script>
+</body>
+</html>
